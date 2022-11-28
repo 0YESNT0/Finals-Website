@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: raleway;
   color: #643826;
 }
 
@@ -416,9 +416,10 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.png") top center;
-  background-size: cover;
+  background: url("../img/hero-bg.png") left center;
+  background-size: 60%;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 #hero:before {
@@ -443,7 +444,7 @@ h6 {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: Radley;
 }
 
 #hero h1 span {
@@ -1579,4 +1580,20 @@ section {
 	border-bottom: 2px solid #EDE1D5; 
 	padding-bottom: 5px; 
 	width: 100%
+}
+
+.underlined-dark {
+	border-bottom: 2px solid #643826; 
+	padding-bottom: 5px; 
+	width: 100%
+}
+
+.titles{
+	font-family: Radley;
+	font-weight: bold;
+}
+
+.subtitles{
+	font-family: Radley;
+	font-weight: bold;	
 }
